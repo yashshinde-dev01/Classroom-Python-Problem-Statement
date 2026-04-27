@@ -1,6 +1,12 @@
-#Write a Python program to count the frequency of words in a file.
-f1=open("C:\\Users\\Prathamesh\\OneDrive\\Desktop\\Language\\Python\\142.txt")
-a=f1.read()
-print(a)
-print(a.count("hello world"))
-f1.close()
+file=open('Example.txt','r')
+content=file.read()
+lst=content.split()
+print(content)
+freq={};
+for i in lst:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1;
+
+print(freq) 
