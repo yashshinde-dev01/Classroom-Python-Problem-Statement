@@ -1,0 +1,3 @@
+Farmer_Name,Crop,Soil_pH,Rainfall,Temperature,Area,Yield,Water_Used,Fertilizer
+Prathamesh,Sugarcane,7.3,100.0,38.0,1.0,10.0,100.0,NPK
+Tabmekar,Rice,6.8,120.0,39.0,1.0,200.0,100.0,NPK
